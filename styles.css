@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+/* main section */
 body {
+    font-family: Times, serif;
     background-color: #e4e4e4;
     width: 1000px;
     margin: 0 auto;
@@ -9,16 +12,24 @@ body {
 }
 h1 {
     text-decoration: underline;
+    font-size: 50px;
 }
-/* color section */
-ul {
+div {
     border: 1px solid black;
+    margin: 5px;
 }
 h2 {
     text-decoration: underline;
-    margin: 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
 }
-ul li {
+
+/* color section */
+#colors {
+    padding-left: 0;
+}
+#colors li {
     width: 150px;
     display: inline-block;
     margin: 10px 20px;
@@ -27,7 +38,7 @@ ul li {
     padding-top: 5px;
     border-radius: 5px;
 }
-ul li span {
+#colors li span {
     width: 80px;
     display: block;
     text-align: center;
@@ -56,6 +67,62 @@ ul li span {
     background-color: #66fcf1;
 }
 
+/* font section */
+.fonts {
+    text-align: left;
+}
+.fonts .fhead {
+    list-style: none;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.fonts li {
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+.cp1, .cp2, .cp3 {
+    font-family: "Courier Prime", monospace;
+}
+.cp2 {
+    font-style: italic;
+}
+.cp3 {
+    font-weight: 700;
+}
+.scp1, .scp2, .scp3 {
+    font-family: "Source Code Pro", monospace;
+}
+.scp2 {
+    font-style: italic;
+}
+.scp3 {
+    font-weight: 700;
+}
+
+/* styles section */
+.styles1, .styles2, .styles3 {
+    text-align: left;
+}
+.shead {
+    list-style: none;
+}
+.styles {
+    font-size: 18px;
+}
+.styles1 h1 {
+    font-family: "Courier Prime", monospace;
+    margin-bottom: 6px;
+}
+.styles2 h2 {
+    text-align: left;
+    font-family: "Courier Prime", monospace;
+    margin-bottom: 6px;
+}
+.styles3 .shead {
+    font-family: "Source Code Pro", monospace;
+    margin-bottom: 6px;
+}
 
 /* use this and viewport meta to change display if screen
 size is smaller (mobile etc) */
