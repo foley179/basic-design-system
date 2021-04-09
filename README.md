@@ -14,4 +14,4 @@ A project to create a design system webpage.
 - CSS
 
 ## Status
-Project is: _in progress_
+Project is: _completed_
